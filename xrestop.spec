@@ -10,7 +10,6 @@ License:	GPL
 Group:		Monitoring
 URL:		http://www.freedesktop.org/Software/xrestop
 Source0:	%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	libx11-devel
 BuildRequires:  libxext-devel
 BuildRequires:  libxres-devel
