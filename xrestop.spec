@@ -1,6 +1,6 @@
 %define        name    xrestop
 %define        version 0.4
-%define        release %mkrel 10
+%define        release %mkrel 11
 
 Summary:	X Resource Monitor
 Name:		%{name}
