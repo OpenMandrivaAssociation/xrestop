@@ -1,6 +1,6 @@
 %define        name    xrestop
 %define        version 0.4
-%define        release %mkrel 11
+%define release  12
 
 Summary:	X Resource Monitor
 Name:		%{name}
@@ -10,7 +10,6 @@ License:	GPL
 Group:		Monitoring
 URL:		http://www.freedesktop.org/Software/xrestop
 Source:		http://projects.o-hand.com/sources/xrestop/%{name}-%{version}.tar.gz
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	pkgconfig(x11)
 BuildRequires:  pkgconfig(xext)
 BuildRequires:  pkgconfig(xres)
