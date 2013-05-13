@@ -11,9 +11,9 @@ Group:		Monitoring
 URL:		http://www.freedesktop.org/Software/xrestop
 Source:		http://projects.o-hand.com/sources/xrestop/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	libx11-devel
-BuildRequires:  libxext-devel
-BuildRequires:  libxres-devel
+BuildRequires:	pkgconfig(x11)
+BuildRequires:  pkgconfig(xext)
+BuildRequires:  pkgconfig(xres)
 BuildRequires:	ncurses-devel
 
 %description
