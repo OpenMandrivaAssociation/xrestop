@@ -10,6 +10,7 @@ Source0:		https://xorg.freedesktop.org/archive/individual/app/xrestop-%{version}
 BuildRequires:	pkgconfig(x11)
 BuildRequires:  pkgconfig(xext)
 BuildRequires:  pkgconfig(xres)
+BuildRequires:  pkgconfig(xorg-macros)
 BuildRequires:	ncurses-devel
 
 %description
