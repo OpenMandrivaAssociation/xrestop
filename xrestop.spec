@@ -36,7 +36,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}*
-%doc README AUTHORS NEWS
+%doc README* AUTHORS NEWS
 
 
 %changelog
