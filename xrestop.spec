@@ -1,15 +1,12 @@
-%define        name    xrestop
-%define        version 0.4
-%define release  13
 
 Summary:	X Resource Monitor
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		xrestop
+Version:	0.5
+Release:	1
 License:	GPL
 Group:		Monitoring
 URL:		http://www.freedesktop.org/Software/xrestop
-Source:		http://projects.o-hand.com/sources/xrestop/%{name}-%{version}.tar.gz
+Source0:		https://xorg.freedesktop.org/archive/individual/app/xrestop-%{version}.tar.bz2
 BuildRequires:	pkgconfig(x11)
 BuildRequires:  pkgconfig(xext)
 BuildRequires:  pkgconfig(xres)
@@ -86,7 +83,7 @@ rm -rf %{buildroot}
 - Removed menu entries. This is a command line utility. (#28187)
 - Import xrestop
 
-* Tue Sep 05 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.4-2mdv2007.0
+* Tue Sep 05 2006 Nicolas LÃ©cureuil <neoclust@mandriva.org> 0.4-2mdv2007.0
 - XDG
 
 * Mon Mar 13 2006 Lenny Cartier <lenny@mandriva.com> 0.4-1mdk
@@ -95,7 +92,7 @@ rm -rf %{buildroot}
 * Fri Oct 29 2004 Laurent MONTEL <lmontel@mandrakesoft.com> 0.3-1mdk
 - 0.3
 
-* Thu Feb 26 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 0.2-5mdk
+* Thu Feb 26 2004 Per Ã˜yvind Karlsen <peroyvind@linux-mandrake.com> 0.2-5mdk
 - fix typo in longtitle
 - fix group
 - cleanups 
