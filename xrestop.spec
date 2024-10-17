@@ -4,7 +4,7 @@ Version:	0.6
 Release:	1
 License:	GPL
 Group:		Monitoring
-URL:		http://www.freedesktop.org/Software/xrestop
+URL:		https://www.freedesktop.org/Software/xrestop
 Source0:	https://xorg.freedesktop.org/archive/individual/app/xrestop-%{version}.tar.xz
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
